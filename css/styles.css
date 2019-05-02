@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Nixie+One|Source+Sans+Pro');
+
+/* GLOBAL */
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.wrap {
+    min-height: 100vh;
+}
+
+/* NAV Section */
+
+.nav li a:hover , .navbar-default {
+    background-color: #595560;
+    font-family: 'Nixie One', cursive;
+    font-weight: bold;
+
+}
+
+.navbar-default {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: rgba(17, 17, 17, .2);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover, 
+.navvbar-default .navbar-nav li a:focus {
+    color: #faed26;
+    background-color: rgba(17, 17, 17, .2);
+}
+
+nav.navbar {
+    position: absolute;
+    height: 75px;
+    top: 100;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-brand > img {
+    margin-top: -7px;
+    height: 62px;
+    width: 62px;
+    margin-left: 15px;
+}
+
+/* JUMBOTRON SECTION */
+
+.jumbotron {
+    background-image: url('../img/vineyardlandscape.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
