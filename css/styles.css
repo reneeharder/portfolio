@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nixie+One|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro|Satisfy');
 
 /* GLOBAL */
 
@@ -14,9 +14,10 @@
 /* NAV Section */
 
 .nav li a:hover , .navbar-default {
-    background-color: #595560;
+    background-color: #ececec;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .navbar-default {
@@ -25,17 +26,21 @@
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #fff;
+    color: #5f6366;
     background-color: rgba(17, 17, 17, .2);
+    border-radius: 20px;
+    margin-top: 10px;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #5f6366;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 
 .navbar-default .navbar-nav li a:hover, 
 .navvbar-default .navbar-nav li a:focus {
-    color: #faed26;
+    color: #f3d250;
     background-color: rgba(17, 17, 17, .2);
 }
 
@@ -49,23 +54,44 @@ nav.navbar {
 }
 
 .navbar-brand > img {
-    margin-top: -7px;
-    height: 62px;
-    width: 62px;
+    margin-top: -12px;
+    height: 70px;
+    width: 70px;
     margin-left: 15px;
 }
 
 /* JUMBOTRON SECTION */
 
 .jumbotron {
-    background-image: url('../img/vineyard.jpeg');
+    background-image: url('../img/jumbotron.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 500px;
 }
 
-.jumbotron h2 {
+.jumbotron h1 {
+    font-family: 'Satisfy', cursive;
+    color: #ececec;
+    text-align: right;
+    margin-top: 300px;
+    font-size: 3.5em; 
+    text-shadow: 1px 1px 3px black;
+}
+
+/* ABOUT ME section */
+
+.img-family {
+    height: 300px;
+    width: 300px;
+}
+
+#aboutme h1 {
+    font-family: 'Satisfy', cursive;
+    color: #f78888;
+    text-shadow: 1px 1px 3px black
+}
+
+.text-justify {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    color: #fff;
+    font-size: 18px;
 }
