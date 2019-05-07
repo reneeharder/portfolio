@@ -15,9 +15,8 @@
 
 .nav li a:hover , .navbar-default {
     background-color: #595560;
-    font-family: 'Nixie One', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-
 }
 
 .navbar-default {
@@ -59,8 +58,14 @@ nav.navbar {
 /* JUMBOTRON SECTION */
 
 .jumbotron {
-    background-image: url('../img/vineyardlandscape.jpg');
+    background-image: url('../img/vineyard.jpeg');
     background-size: cover;
     background-position: center;
     height: 300px;
+}
+
+.jumbotron h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #fff;
 }
