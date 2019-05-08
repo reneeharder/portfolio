@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro');
 
 /* GLOBAL */
 
@@ -14,10 +14,7 @@
 /* NAV Section */
 
 .nav li a:hover , .navbar-default {
-    background-color: #ececec;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
+   background-color: transparent;
 }
 
 .navbar-default {
@@ -26,14 +23,14 @@
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #5f6366;
+    color: #fff;
     background-color: rgba(17, 17, 17, .2);
     border-radius: 20px;
     margin-top: 10px;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #5f6366;
+    color: #fff;
     border-radius: 20px;
     margin-top: 10px;
 }
@@ -65,33 +62,45 @@ nav.navbar {
 .jumbotron {
     background-image: url('../img/jumbotron.jpg');
     background-size: cover;
-    background-position: center;
-    height: 500px;
+    height: 400px;
 }
 
 .jumbotron h1 {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Lato', sans-serif;
     color: #ececec;
     text-align: right;
-    margin-top: 300px;
+    margin-top: 200px;
+    padding: 10px;
     font-size: 3.5em; 
     text-shadow: 1px 1px 3px black;
 }
 
 /* ABOUT ME section */
 
+#aboutme {
+    height: 350px;
+}
 .img-family {
     height: 300px;
     width: 300px;
 }
 
-#aboutme h1 {
-    font-family: 'Satisfy', cursive;
-    color: #f78888;
-    text-shadow: 1px 1px 3px black
+#aboutme h1 , #portfolio h1 {
+    font-family: 'Lato', sans-serif;
+    color: #f3d250;
+    text-shadow: 1px 1px 2px #5f6366;
+    font-weight: 600;
 }
 
 .text-justify {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
+}
+
+/* PORTFOLIO section */
+
+#portfolio {
+    background-image: url('../img/forest.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
