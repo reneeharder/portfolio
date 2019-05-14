@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nixie+One|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro');
 
 /* GLOBAL */
 
@@ -14,10 +14,7 @@
 /* NAV Section */
 
 .nav li a:hover , .navbar-default {
-    background-color: #595560;
-    font-family: 'Nixie One', cursive;
-    font-weight: bold;
-
+   background-color: transparent;
 }
 
 .navbar-default {
@@ -28,39 +25,212 @@
 .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
     background-color: rgba(17, 17, 17, .2);
+    border-radius: 20px;
+    margin-top: 10px;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #fff;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 
 .navbar-default .navbar-nav li a:hover, 
 .navvbar-default .navbar-nav li a:focus {
-    color: #faed26;
+    color: #f3d250;
     background-color: rgba(17, 17, 17, .2);
 }
 
 nav.navbar {
     position: absolute;
-    height: 75px;
+    height: 100px;
     top: 100;
     right: 0;
     left: 0;
     z-index: 20;
 }
 
-.navbar-brand > img {
-    margin-top: -7px;
-    height: 62px;
-    width: 62px;
+.navbar-brand > img, .footer-logo {
+    margin-top: -14px;
+    height: 90px;
+    width: 90px;
     margin-left: 15px;
 }
 
 /* JUMBOTRON SECTION */
 
-.jumbotron {
-    background-image: url('../img/vineyardlandscape.jpg');
+.background {
+    background-image: url('../img/forest.jpg');
     background-size: cover;
-    background-position: center;
-    height: 300px;
+    background-attachment: fixed;
+    background-color: rgba(20, 20, 20, 0.3);
+    height: fit-content;
 }
+
+.jumbotron {
+    background-image: url('../img/jumbotron.jpg');
+    background-size: cover;
+    height: 450px;
+}
+
+.jumbotron h1 {
+    font-family: 'Lato', sans-serif;
+    color: #ececec;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+    font-size: 3em; 
+    text-shadow: 1px 1px 3px #272727;
+}
+
+/* RESUME section */
+
+
+#resume>.col-sm-12 {
+    color: #ececec;
+}
+
+#resume {
+    text-shadow: 1px 1px 2px black;
+}
+
+#resume h2 {
+    text-decoration: underline;
+    color: #f3d250;
+    padding: 5px;
+}
+
+.strengths h4 {
+    line-height: 2.0;
+}
+
+/* PORTFOLIO section */
+
+.portfolio h2 {
+    margin-bottom: 30px;
+}
+
+.rpbi {
+    height: 150px;
+    width: 137px;
+}
+
+.restaurante {
+    height: 150px;
+    width: 173px;
+}
+
+.petstore {
+    height: 150px;
+    width: 150px;
+}
+
+/* ABOUT ME section */
+
+.about {
+    height: 400px;
+    background-color: #272727;
+    color: #ececec;
+    margin-top: 40px;
+}
+
+.img-family {
+    margin-top: 70px;
+}
+
+.about h1 , #resume h1, #contact h1 {
+    font-family: 'Lato', sans-serif;
+    color: #f3d250;
+    text-shadow: 1px 1px 2px #5f6366;
+    font-weight: 600;
+}
+
+.text-justify {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    border-top: 40px;
+}
+
+/* CONTACT section */
+
+.contact_form {
+    background-color: #5f6366;
+    color: #f3d250;
+    border: 1px solid;    
+    height: 548px;
+    padding-top: 20px;
+}
+
+.contact_form form {
+    padding: 5% 0;
+}
+
+.contact_form span {
+    color: #272727;
+}
+
+#contact {
+    background-color: #272727;
+}
+
+#contact p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #ececec;
+    font-size: 1em;
+}
+
+#contact_fine_print {
+    font-size: 12px !important;
+    text-align: center;
+}
+
+address {
+    color: #ececec; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact_bottom {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.checkbox {
+    padding-bottom: 40px;
+}
+
+.requiredStar::after {
+    content: '*';
+    color: #000;
+}
+
+/* FOOTER Section */
+
+.footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('../img/jumbotron.jpg');
+    background-size: 1450px;
+    background-position: bottom;
+}
+
+.footer-logo {
+    margin-top: 5px;
+}
+
+.copy {
+    margin-top: 45px;
+    text-align: right;
+    color: #ececec;
+}
+
+.fa-instagram , .fa-twitter, .fa-facebook {
+    font-size: 6em;
+    color: #ececec;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    #aboutme {
+        justify-content: 
+    }
