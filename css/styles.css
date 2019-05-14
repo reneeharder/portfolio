@@ -50,7 +50,7 @@ nav.navbar {
     z-index: 20;
 }
 
-.navbar-brand > img {
+.navbar-brand > img, .footer-logo {
     margin-top: -14px;
     height: 90px;
     width: 90px;
@@ -58,6 +58,14 @@ nav.navbar {
 }
 
 /* JUMBOTRON SECTION */
+
+.background {
+    background-image: url('../img/forest.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(20, 20, 20, 0.3);
+    height: fit-content;
+}
 
 .jumbotron {
     background-image: url('../img/jumbotron.jpg');
@@ -77,13 +85,6 @@ nav.navbar {
 
 /* RESUME section */
 
-#resume {
-    background-image: url('../img/forest.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: rgba(20, 20, 20, 0.3);
-    height: 650px;
-}
 
 #resume>.col-sm-12 {
     color: #ececec;
@@ -104,7 +105,11 @@ nav.navbar {
 }
 
 /* PORTFOLIO section */
-    
+
+.portfolio h2 {
+    margin-bottom: 30px;
+}
+
 .rpbi {
     height: 150px;
     width: 137px;
@@ -122,22 +127,18 @@ nav.navbar {
 
 /* ABOUT ME section */
 
-#aboutme {
+.about {
     height: 400px;
     background-color: #272727;
     color: #ececec;
-    margin: -30px;
-}
-
-.about {
     margin-top: 40px;
 }
 
 .img-family {
-    margin-top: 75px;
+    margin-top: 70px;
 }
 
-#aboutme h1 , #resume h1, #contact h1 {
+.about h1 , #resume h1, #contact h1 {
     font-family: 'Lato', sans-serif;
     color: #f3d250;
     text-shadow: 1px 1px 2px #5f6366;
@@ -173,7 +174,7 @@ nav.navbar {
 }
 
 #contact p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: #ececec;
     font-size: 1em;
@@ -186,7 +187,7 @@ nav.navbar {
 
 address {
     color: #ececec; 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .contact_bottom {
@@ -205,56 +206,31 @@ address {
 
 /* FOOTER Section */
 
-.container-fluid_footer {
-    padding-top: 20px;
-    max-height: 100%;
-}
-
-footer a {
-    color: #5c433f;
+.footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('../img/jumbotron.jpg');
+    background-size: 1450px;
+    background-position: bottom;
 }
 
 .footer-logo {
-    height: 70px;
-    margin-left: 170px;
+    margin-top: 5px;
 }
 
-.contact_info {
-    padding-top: 15px;
-    padding-left: 40px;
-    border-right: 1px solid #333;
-    border-left: 1px solid #333;
+.copy {
+    margin-top: 45px;
+    text-align: right;
+    color: #ececec;
 }
 
-footer .fine_print {
-    margin-top: 10px;
-    margin-bottom: 15px;
-    color: #333;
-
-@media (max-width: 768) {
-        .centered {
-            float: none;
-            margin: 0 auto;
-        }
-    nav {
-        padding-top: 0px;
-        padding-bottom: 10px;
-        top: 5px;
-    }
-    .social {
-        text-align: center;
-        font-size: 45px;
-    }
-    .social i {
-        margin: 20px 10px 0px;
-    }
-    aside {
-        margin-bottom: 60px;
-    }
+.fa-instagram , .fa-twitter, .fa-facebook {
+    font-size: 6em;
+    color: #ececec;
+    margin-top: 6px;
+    margin-right: 5px;
 }
-
 
 @media (max-width: 768px) {
-    #our_story {
+    #aboutme {
         justify-content: 
     }
