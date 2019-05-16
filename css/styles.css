@@ -78,9 +78,11 @@ nav.navbar {
     color: #ececec;
     text-align: center;
     margin-top: 100px;
-    padding: 10px;
+    padding: 25px;
     font-size: 3em; 
-    text-shadow: 1px 1px 3px #272727;
+    text-shadow: 2px 2px 3px #272727; 
+    border-radius: 20px;
+    background-color: rgba(17, 17, 17, .3);  
 }
 
 /* RESUME section */
@@ -97,9 +99,16 @@ nav.navbar {
 #resume h2 {
     text-decoration: underline;
     color: #f3d250;
-    padding: 5px;
+    padding: 10px;
 }
 
+#resume h4 {
+    font-size: 1.6em;
+}
+
+#resume p {
+    font-size: 1.2em; 
+}
 .strengths h4 {
     line-height: 2.0;
 }
@@ -107,7 +116,7 @@ nav.navbar {
 /* PORTFOLIO section */
 
 .portfolio h2 {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .rpbi {
@@ -219,14 +228,14 @@ address {
 
 .copy {
     margin-top: 45px;
-    text-align: right;
+    text-align: center;
     color: #ececec;
 }
 
-.fa-instagram , .fa-twitter, .fa-facebook {
-    font-size: 6em;
+.fa-instagram , .fa-linkedin, .fa-facebook {
+    font-size: 3.5em;
     color: #ececec;
-    margin-top: 6px;
+    margin-top: 23px;
     margin-right: 5px;
 }
 
